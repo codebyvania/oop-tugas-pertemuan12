@@ -35,7 +35,7 @@ Aplikasi ini menampilkan penerapan prinsip PBO melalui penggunaan **class entity
 | --------------- | --------- | --------------------------- |
 | id_treatment    | INT (PK)  | Primary Key                 |
 | id_pasien       | INT (FK)  | Foreign key ke tabel Pasien |
-| dokter          | VARCGAR   | Dokter yang bertugas        |
+| dokter          | VARCHAR   | Dokter yang bertugas        |
 | treatment       | VARCHAR   | Jenis perawatan             |
 | harga           | DECIMAL   | Biaya perawatan             |
 
