@@ -18,30 +18,6 @@ Aplikasi ini menampilkan penerapan prinsip PBO melalui penggunaan **class entity
 
 ---
 
-## 🏗️ Struktur Aplikasi
-
-```
-├── src/
-│   ├── Entity/
-│   │   ├── PasienEntity.java
-│   │   └── DataTreatmentEntity.java
-│   ├── Transaksi/
-│   │   ├── InsertDialog.java
-│   │   ├── UpdateDialog.java
-│   │   ├── DeleteDialog.java
-│   │   └── MainFrame.java
-│   └── Utils/
-│       └── DBUtils.java
-│
-├── resources/
-│   └── laporan/
-│       └── report_template.jrxml (opsional)
-│
-└── README.md
-```
-
----
-
 ## 🗄️ Struktur Database
 
 ### Tabel 1 – **Pasien**
@@ -59,8 +35,9 @@ Aplikasi ini menampilkan penerapan prinsip PBO melalui penggunaan **class entity
 | --------------- | --------- | --------------------------- |
 | id_treatment    | INT (PK)  | Primary Key                 |
 | id_pasien       | INT (FK)  | Foreign key ke tabel Pasien |
-| jenis_treatment | VARCHAR   | Jenis perawatan             |
-| biaya           | DECIMAL   | Biaya perawatan             |
+| dokter          | VARCGAR   | Dokter yang bertugas        |
+| treatment       | VARCHAR   | Jenis perawatan             |
+| harga           | DECIMAL   | Biaya perawatan             |
 
 Relasi:
 **Pasien (1) → (n) DataTreatment**
