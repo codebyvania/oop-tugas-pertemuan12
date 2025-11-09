@@ -1,9 +1,3 @@
-# oop-tugas-pertemuan12
-
-Siap 👍 berikut contoh **README.md** yang cocok untuk proyek praktikum PBO kamu — fokusnya pada implementasi **CRUD dengan Foreign Key** dan bisa langsung dipakai di GitHub atau folder project-mu:
-
----
-
 # 🧩 Aplikasi CRUD dengan Foreign Key – PBO
 
 ## 📘 Deskripsi Proyek
